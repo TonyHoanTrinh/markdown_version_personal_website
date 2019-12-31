@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="./Images/MainSquare.jpg">
+<script type="text/javascript" src="main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title> Tony Hoan Trinh </title>
+</head>
+<body>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+    <button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+    <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openCity(event, 'Blog')">Blog</button>
+    <button class="tablinks" onclick="openCity(event, 'ProofByIntuition')">Proof By Intuition</button>
+</div>
+
+<div id="Home" class="tabcontent">
+    <ul>
+        <h1>  Tony Hoan Trinh
+            <a class = "icons" href = "https://www.linkedin.com/in/tony-hoan-trinh-965408168/" style = "float:right">
+                <img src="./Images/LinkedInLogo.svg" style = "height:42px; length:42px">
+            </a>
+            <a class = "icons" href = "https://github.com/TonyHoanTrinh">
+                <img src="./Images/GithubLogo.svg" style = "height:42px; length:42px">
+            </a>
+
+        </h1>
+        <hr><br>
+        <div>
+            <image src = "./Images/MainSquare.jpg" class = "main"> </image>
+                <p class = "information">
+                    Hello!
+                </p>
+                <p>
+                    I'm currently a <b> Statistics/ML Undergrad Research Assistant</b> at the
+                    Institutional Analysis and Research department at the University of Guelph this Summer 2019.
+                </p>
+
+                <p>
+                    I just finished my 1st year as a student at the University of Guelph with a major in Computer Science
+                    and a minor in Statistics. I am the VP Finance of Society of Computing and Information Science (SOCIS)
+                    and co-organizer of Guelph Coding Community (GCC).
+                </p>
+
+                <p>
+                    I am interested in Machine Learning with a focus on Reinforcement Learning and other topics such as
+                    Blockchain, Discrete Mathematics and Math Visualizations.
+                </p>
+
+                <p>
+                    Outside of work, I enjoy a good challenge! I am currently trying to complete the first 100 questions
+                    of Project Euler as my summer challenge. My other hobbies include reading, meditating, playing guitar
+                    and volunteering at my local Buddhist temple!
+                </p>
+        </div>
+    </ul>
+</div>
+
+
+
+<div id="Resume" class="tabcontent">
+    <ul>
+        <div>
+        <h3>Resume</h3>
+            <a href="./Tony%20Hoan%20Trinh%202019%20Resume.pdf" download="Tony Hoan Trinh Resume">
+                <button class="btn"><i class="fa fa-download"></i>
+                    Download
+                </button>
+            </a>
+            <br> <br>
+            <embed src="./Tony%20Hoan%20Trinh%202019%20Resume.pdf" width="1300px" height="800px"
+               type="application/pdf">
+
+        </div>
+    </ul>
+</div>
+
+<div id="Projects" class="tabcontent">
+    <h3>Projects</h3>
+    <p> Coming soon!</p>
+</div>
+
+<div id="Blog" class="tabcontent">
+    <h3>Blog</h3>
+    <p> Coming soon!</p>
+</div>
+
+<div id="ProofByIntuition" class="tabcontent">
+    <h3>Proof By Intuition</h3>
+    <p> Coming soon!</p>
+
+    <div class="card">
+        <img src="./Images/mandelbrot_set.jpg" alt="MandelbrotSetImage" style="width:100%">
+        <div class="container">
+            <h4><b>Fractals and the Mandelbrot Set</b></h4>
+            <p> Paragraph 1</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="./Images/voronoidiagram.png" alt="VoronoiDiagram" style="width:100%">
+        <div class="container">
+            <h4><b>Voronoi Diagrams</b></h4>
+            <p> Paragraph 2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="./Images/markovchains.png "alt="Markov Chains" style="width:100%">
+        <div class="container">
+            <h4><b>Markov Chains</b></h4>
+            <p> Paragraph 3</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="./Images/trees.png" alt="RandomForest" style="width:100%">
+        <div class="container">
+            <h4><b>Decision Trees and Random Forests</b></h4>
+            <p> Paragraph 5</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="./Images/regression.svg" alt="Regression" style="width:100%">
+        <div class="container">
+            <h4><b>Linear and Logistic Regression</b></h4>
+            <p> Paragraph 6</p>
+        </div>
+    </div>
+
+    <div id="disqus_thread"></div>
+    <!--
+    <script>
+
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://tonyhoantrinh.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    -->
+
+</div>
+
+<script>
+    document.getElementById("defaultOpen").click();
+
+</script>
+
+</body>
+</html>
